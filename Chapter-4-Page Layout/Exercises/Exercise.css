@@ -1,0 +1,83 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
+  }
+  
+  header {
+    background-color: #17072b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Tahoma, sans-serif;
+    font-weight: 700;
+  }
+  
+  nav {
+    background-color: #17072b;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  main {
+    display: flex;
+    padding: 20px;
+    gap: 30px;
+  }
+  
+  .welcome {
+    flex: 2;
+  }
+  
+  .welcome h2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .welcome p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  aside {
+    flex: 1;
+    background-color: #172d67;
+    color: white;
+    padding: 20px;
+  }
+  
+  aside h2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .lineup-images {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+  }
+  
+  footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  } 
